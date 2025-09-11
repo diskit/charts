@@ -1,0 +1,23 @@
+{
+  "name": "d3fc",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "install": "pnpm install",
+    "add": "pnpm add"
+  },
+  "dependencies": {
+    "d3": "^7.9.0",
+    "d3fc": "^15.2.13",
+    "lit": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2"
+  }
+}
