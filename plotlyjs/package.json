@@ -1,0 +1,20 @@
+{
+  "name": "plotlyjs",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lit": "^3.3.1",
+    "plotly.js-basic-dist": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/plotly.js": "^3.0.6",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2"
+  }
+}
